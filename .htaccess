@@ -5,6 +5,8 @@
   # 1. Forward assets and static files to dist/
   RewriteRule ^assets/(.*)$ dist/assets/$1 [L]
   RewriteRule ^images/(.*)$ dist/images/$1 [L]
+  RewriteRule ^BUMD\.jpeg$ dist/BUMD.jpeg [L]
+  RewriteRule ^favicon\.jpeg$ dist/favicon.jpeg [L]
   RewriteRule ^favicon\.svg$ dist/favicon.svg [L]
   RewriteRule ^icons\.svg$ dist/icons.svg [L]
 
