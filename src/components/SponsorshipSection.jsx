@@ -4,7 +4,7 @@ import { Ticket, Hotel, Building2, Check, ArrowRight } from 'lucide-react';
 export default function SponsorshipSection() {
   const whatsappUrl = "https://wa.me/6285973209723";
   const corporateWhatsappUrl = "https://wa.me/6285973209723?text=Halo%20Admin,%20saya%20tertarik%20dengan%20Corporate%20Package%20BUMD%20Scale%20Up%20Summit%202026";
-  const registrationFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfTvSuwTech1J7o7VppO5TAvzogNqXUOjW0rakDOF8xm9h8Qw/viewform";
+  const registrationFormUrl = "https://forms.gle/kdhtCunAkdp23zm79";
 
   return (
     <section id="sponsorship" className="py-16 md:py-24 bg-gradient-to-b from-purple-50/40 via-white to-slate-50 relative overflow-hidden border-t border-slate-100">

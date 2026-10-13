@@ -63,7 +63,7 @@ export default function JoinMovementSection() {
               </p>
 
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfTvSuwTech1J7o7VppO5TAvzogNqXUOjW0rakDOF8xm9h8Qw/viewform"
+                href="https://forms.gle/kdhtCunAkdp23zm79"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full py-4 px-6 rounded-full text-sm font-bold text-white bg-[#f9572a] hover:bg-[#e0451a] shadow-xl shadow-[#f9572a]/30 transition flex items-center justify-center gap-2 group"

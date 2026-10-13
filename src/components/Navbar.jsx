@@ -54,7 +54,7 @@ export default function Navbar() {
               Become a Sponsor
             </a>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfTvSuwTech1J7o7VppO5TAvzogNqXUOjW0rakDOF8xm9h8Qw/viewform"
+              href="https://forms.gle/kdhtCunAkdp23zm79"
               target="_blank"
               rel="noreferrer"
               className="px-6 py-2.5 rounded-full text-xs font-bold text-white bg-[#240a5e] hover:bg-[#1a0647] shadow-md shadow-[#240a5e]/20 transition"
@@ -125,7 +125,7 @@ export default function Navbar() {
               Become a Sponsor
             </a>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfTvSuwTech1J7o7VppO5TAvzogNqXUOjW0rakDOF8xm9h8Qw/viewform"
+              href="https://forms.gle/kdhtCunAkdp23zm79"
               target="_blank"
               rel="noreferrer"
               onClick={() => setIsOpen(false)}
