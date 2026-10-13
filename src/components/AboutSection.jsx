@@ -16,8 +16,8 @@ export default function AboutSection() {
       id: 1,
       num: '01',
       stage: 'Fondasi Kepemimpinan',
-      title: 'Perkuat Kepemimpinan',
-      subtitle: 'Meningkatkan kapabilitas pemimpin BUMD',
+      title: 'Penguatan Kepemimpinan',
+      subtitle: 'Membangun kepemimpinan visioner, adaptif, dan berintegritas tinggi',
       icon: Users,
       color: 'from-blue-600 to-indigo-700',
       accentColor: '#4f46e5',
@@ -30,7 +30,7 @@ export default function AboutSection() {
       num: '02',
       stage: 'Akselerasi Teknologi',
       title: 'Akselerasi Transformasi Digital',
-      subtitle: 'Mempercepat transformasi digital dan operasional',
+      subtitle: 'Mengintegrasikan teknologi mutakhir untuk efisiensi operasional',
       icon: Cpu,
       color: 'from-violet-600 to-purple-800',
       accentColor: '#7c3aed',
@@ -42,8 +42,8 @@ export default function AboutSection() {
       id: 3,
       num: '03',
       stage: 'Akuntabilitas & Kepatuhan',
-      title: 'Tingkatkan Tata Kelola',
-      subtitle: 'Mendorong tata kelola yang sehat dan efektif',
+      title: 'Peningkatan Tata Kelola',
+      subtitle: 'Menerapkan tata kelola yang sehat, transparan, dan akuntabel',
       icon: Landmark,
       color: 'from-purple-700 to-pink-700',
       accentColor: '#9333ea',
@@ -55,8 +55,8 @@ export default function AboutSection() {
       id: 4,
       num: '04',
       stage: 'Ekosistem & Kemitraan',
-      title: 'Koneksikan Solusi Bisnis',
-      subtitle: 'Mempertemukan BUMD dengan penyedia solusi',
+      title: 'Konektivitas Solusi Bisnis',
+      subtitle: 'Menghubungkan BUMD dengan mitra teknologi dan inovasi terdepan',
       icon: Handshake,
       color: 'from-pink-600 to-[#f9572a]',
       accentColor: '#db2777',
@@ -68,8 +68,8 @@ export default function AboutSection() {
       id: 5,
       num: '05',
       stage: 'Pertumbuhan & Permodalan',
-      title: 'Buka Peluang Investasi',
-      subtitle: 'Membuka peluang investasi dan kemitraan',
+      title: 'Perluasan Akses Investasi',
+      subtitle: 'Membuka peluang pendanaan dan kemitraan modal berkelanjutan',
       icon: TrendingUp,
       color: 'from-[#f9572a] to-amber-600',
       accentColor: '#f9572a',
@@ -81,8 +81,8 @@ export default function AboutSection() {
       id: 6,
       num: '06',
       stage: 'Sinergi Nasional',
-      title: 'Bangun Kolaborasi Antardaerah',
-      subtitle: 'Membangun jaringan kolaborasi antardaerah',
+      title: 'Kolaborasi Antardaerah',
+      subtitle: 'Membangun jaringan aliansi bisnis dan kemitraan strategis antardaerah',
       icon: Globe,
       color: 'from-amber-500 to-orange-600',
       accentColor: '#f59e0b',
@@ -127,10 +127,10 @@ export default function AboutSection() {
             {/* Main Headline */}
             <div>
               <h2 className="font-display font-black text-3xl sm:text-5xl md:text-6xl text-[#1a0647] tracking-tight leading-[1.05]">
-                Tujuan Acara
+                Arah & Sasaran Strategis
               </h2>
               <h3 className="font-display font-bold text-xl sm:text-2xl md:text-3xl text-slate-800 mt-2">
-                Membangun BUMD yang <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#240a5e] via-purple-700 to-[#f9572a]">Kompetitif dan Berkelanjutan</span>
+                Membangun BUMD yang <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#240a5e] via-purple-700 to-[#f9572a]">Berkualitas, Berkelanjutan, dan Berdaya Saing Global</span>
               </h3>
             </div>
 
@@ -139,7 +139,7 @@ export default function AboutSection() {
 
             {/* Subtitle / Mission Statement */}
             <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed pt-1">
-              Mendorong BUMD menjadi organisasi yang unggul, adaptif, dan siap menciptakan dampak ekonomi daerah secara nyata dan berkelanjutan.
+              Mendorong transformasi BUMD menjadi entitas bisnis yang unggul, berdaya saing tinggi, serta mampu memberikan kontribusi nyata bagi pertumbuhan ekonomi daerah secara berkelanjutan.
             </p>
           </div>
 
@@ -159,7 +159,7 @@ export default function AboutSection() {
                 </h4>
                 
                 <p className="text-purple-200/90 text-xs leading-relaxed font-normal pt-1">
-                  Peta jalan transformasi dari penguatan kepemimpinan daerah hingga terciptanya kemitraan terpadu berskala nasional.
+                  Peta jalan transformasi terpadu: dari penguatan fondasi kepemimpinan daerah hingga perluasan aliansi bisnis strategis berskala nasional.
                 </p>
               </div>
             </div>
@@ -178,10 +178,10 @@ export default function AboutSection() {
             <div className="border-b border-slate-100 pb-5 mb-8">
               <div>
                 <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#f9572a] block mb-1">
-                  TRAYEKTORI TRANSFORMASI
+                  ALUR TRANSFORMASI STRATEGIS
                 </span>
                 <p className="text-sm font-semibold text-slate-800">
-                  Enam pilar akselerasi berkesinambungan menuju kemandirian ekonomi BUMD:
+                  Enam tahapan akselerasi berkesinambungan menuju kemandirian ekonomi daerah:
                 </p>
               </div>
             </div>
@@ -340,7 +340,7 @@ export default function AboutSection() {
           
           <div className="mb-2">
             <span className="text-xs font-mono font-bold text-[#f9572a] uppercase tracking-wider">
-              6 Pilar Sasaran Strategis:
+              6 Tahapan Akselerasi Strategis:
             </span>
           </div>
 

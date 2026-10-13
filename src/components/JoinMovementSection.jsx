@@ -26,8 +26,8 @@ export default function JoinMovementSection() {
                 BUMD 2026
               </h2>
 
-              <p className="text-purple-200 text-base sm:text-lg max-w-lg font-medium">
-                Terhubung, berkolaborasi, dan bersama membangun masa depan badan usaha daerah.
+              <p className="text-purple-200 text-base sm:text-lg max-w-lg font-medium leading-relaxed">
+                Sinergi strategis para pemimpin daerah untuk membangun masa depan badan usaha milik daerah yang mandiri, berdaya saing tinggi, dan berdaya guna bagi masyarakat.
               </p>
 
               {/* Date & Location Badges */}
@@ -59,7 +59,7 @@ export default function JoinMovementSection() {
               </h3>
 
               <p className="text-xs sm:text-sm text-purple-200 leading-relaxed">
-                Kuota terbatas khusus bagi jajaran eksekutif undangan dan delegasi terdaftar.
+                Kuota kepesertaan terbatas khusus bagi jajaran pimpinan daerah, direksi BUMD, dan mitra strategis terdaftar.
               </p>
 
               <a
@@ -68,7 +68,7 @@ export default function JoinMovementSection() {
                 rel="noreferrer"
                 className="w-full py-4 px-6 rounded-full text-sm font-bold text-white bg-[#f9572a] hover:bg-[#e0451a] shadow-xl shadow-[#f9572a]/30 transition flex items-center justify-center gap-2 group"
               >
-                <span>Daftarkan Kursi Anda</span>
+                <span>Daftar Sekarang</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
 
@@ -77,7 +77,7 @@ export default function JoinMovementSection() {
                   href="#sponsorship"
                   className="text-xs text-purple-200 hover:text-white underline font-semibold transition"
                 >
-                  Atau pelajari paket sponsorship & korporat
+                  Pelajari opsi paket korporat dan kemitraan sponsorship
                 </a>
               </div>
 
@@ -110,7 +110,7 @@ export default function JoinMovementSection() {
                 </div>
                 <h3 className="font-display font-bold text-2xl text-slate-900">Pendaftaran Berhasil Dikirim!</h3>
                 <p className="text-xs text-slate-600">
-                  Terima kasih telah mendaftar BUMD Scale Up Summit 2026. Tim kami akan segera menghubungi Anda untuk konfirmasi detail kursi dan pass delegasi.
+                  Terima kasih atas partisipasi Anda pada BUMD Scale Up Summit 2026. Tim kami akan segera menghubungi Anda guna verifikasi dan konfirmasi kepesertaan resmi.
                 </p>
                 <button
                   onClick={() => {

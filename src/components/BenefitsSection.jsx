@@ -33,20 +33,20 @@ export default function BenefitsSection() {
   const targetBenefits = [
     {
       tag: 'UNTUK DIREKSI BUMD',
-      title: 'Perkuat leadership, ciptakan kinerja unggul',
-      desc: 'Wawasan dan strategi teruji dari pakar nasional dan global, benchmarking praktik terbaik antar BUMD, serta jejaring untuk peluang bisnis baru.',
+      title: 'Perkuat kepemimpinan, ciptakan kinerja unggul',
+      desc: 'Wawasan dan strategi teruji dari pakar nasional dan global, tolok ukur praktik terbaik antar-BUMD, serta perluasan jejaring bisnis baru.',
       color: 'border-l-indigo-600 bg-indigo-50/40',
     },
     {
       tag: 'UNTUK PEMDA',
-      title: 'Dorong pertumbuhan daerah yang berkelanjutan',
-      desc: 'Insight kebijakan dan model bisnis BUMD yang mendorong PAD, sinergi BUMD–OPD, serta solusi inovatif untuk tantangan pembangunan daerah.',
+      title: 'Dorong pertumbuhan ekonomi daerah yang berkelanjutan',
+      desc: 'Wawasan kebijakan dan model bisnis BUMD yang mendorong PAD, sinergi BUMD–OPD, serta solusi inovatif untuk pembangunan daerah.',
       color: 'border-l-amber-500 bg-amber-50/40',
     },
     {
       tag: 'UNTUK MITRA BISNIS & INVESTOR',
-      title: 'Temukan peluang, bangun kolaborasi berdampak',
-      desc: 'Akses langsung ke pengambil keputusan BUMD di seluruh Indonesia untuk memperkenalkan solusi dan membangun kemitraan jangka panjang.',
+      title: 'Temukan peluang, bangun kolaborasi berdampak nyata',
+      desc: 'Akses langsung ke pengambil kebijakan dan direksi BUMD seluruh Indonesia untuk memperkenalkan solusi inovatif dan membangun kemitraan jangka panjang.',
       color: 'border-l-purple-600 bg-purple-50/40',
     },
   ];

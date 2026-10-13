@@ -71,7 +71,7 @@ export default function SpeakersSection() {
           
           <div className="mb-10">
             <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-white">
-              Pembicara dan Pimpinan Sesi
+              Jajaran Pembicara dan Pemimpin Sesi
             </h2>
           </div>
 

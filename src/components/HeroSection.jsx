@@ -27,7 +27,7 @@ export default function HeroSection() {
 
           {/* Subtitle */}
           <p className="text-slate-800 text-sm sm:text-lg md:text-xl font-medium leading-relaxed max-w-xl">
-            Mentransformasi Badan Usaha Milik Daerah Menjadi Bisnis yang Cerdas, Kompetitif, dan Terhubung Global
+            Mentransformasi Badan Usaha Milik Daerah Menjadi Bisnis yang Berkualitas, Berkelanjutan, dan Terhubung secara Global
           </p>
 
           {/* Two Meta Cards (Equal Height & Dimensions) */}
@@ -43,7 +43,7 @@ export default function HeroSection() {
                   25–26 November 2026
                 </div>
                 <div className="text-[11px] sm:text-xs text-slate-500 font-medium">
-                  Dua hari penuh
+                  Konferensi Penuh 2 Hari
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function HeroSection() {
 
               {/* Small GMaps Action Button Badge */}
               <div className="px-2 py-1 sm:px-2.5 rounded-lg bg-purple-50 group-hover:bg-[#240a5e] text-[#240a5e] group-hover:text-white text-[10px] font-extrabold transition-all duration-200 flex items-center gap-1 shrink-0 border border-purple-200/60 shadow-xs">
-                <span>Peta</span>
+                <span>Lihat Peta</span>
                 <ExternalLink className="w-3 h-3" />
               </div>
             </a>

@@ -8,12 +8,12 @@ export default function TopBanner() {
         <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-4 gap-y-1">
           <span className="flex items-center gap-1.5 font-medium text-slate-200">
             <Calendar className="w-3.5 h-3.5 text-amber-400" />
-            18–19 November 2026
+            25–26 November 2026
           </span>
           <span className="hidden md:inline text-slate-600">•</span>
           <span className="flex items-center gap-1.5">
             <MapPin className="w-3.5 h-3.5 text-amber-400" />
-            JS Luwansa Hotel, Jakarta
+            Samisara Grand Ballroom, Jakarta
           </span>
           <span className="hidden lg:inline text-slate-600">•</span>
           <span className="hidden lg:flex items-center gap-1.5 text-slate-400">

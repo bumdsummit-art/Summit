@@ -9,11 +9,11 @@ export default function EventHighlightsSection() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div>
             <h2 className="font-display font-extrabold text-3xl sm:text-4xl md:text-5xl text-slate-900">
-              Sorotan Acara
+              Rangkaian Agenda Utama
             </h2>
           </div>
-          <p className="text-slate-600 text-sm sm:text-base font-normal max-w-md">
-            Dari panggung utama hingga pertemuan tatap muka, setiap sesi dirancang untuk menghasilkan keputusan dan kesepakatan nyata.
+          <p className="text-slate-600 text-sm sm:text-base font-normal max-w-md leading-relaxed">
+            Mulai dari panggung utama hingga temu bisnis bilateral, seluruh rangkaian agenda dirancang untuk melahirkan keputusan strategis dan kesepakatan nyata.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ export default function EventHighlightsSection() {
           <div className="lg:col-span-5 relative rounded-3xl overflow-hidden shadow-lg border border-slate-200 group h-[420px] lg:h-auto min-h-[420px] flex flex-col justify-end">
             <img
               src="/images/scaleup/keynote.jpg"
-              alt="Sesi Keynote (Masterclass)"
+              alt="Sesi Utama & Masterclass Eksekutif"
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#16053b]/95 via-[#16053b]/40 to-transparent" />
@@ -34,10 +34,10 @@ export default function EventHighlightsSection() {
                 Panggung Utama
               </span>
               <h3 className="font-display font-bold text-2xl sm:text-3xl text-white">
-                Sesi Keynote (Masterclass)
+                Sesi Utama & Masterclass Eksekutif
               </h3>
               <p className="text-slate-200 text-xs sm:text-sm leading-relaxed max-w-sm">
-                Pemimpin nasional dan global menentukan arah transformasi BUMD untuk dekade mendatang.
+                Menghadirkan tokoh nasional dan pakar global untuk membedah arah transformasi serta peta jalan BUMD masa depan.
               </p>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function EventHighlightsSection() {
                   Diskusi Panel Eksekutif
                 </h4>
                 <p className="text-slate-200 text-xs leading-relaxed">
-                  Diskusi mendalam mengenai tata kelola, pendanaan, dan pertumbuhan.
+                  Eksplorasi mendalam terkait tata kelola korporasi, skema pendanaan inovatif, dan strategi ekspansi bisnis.
                 </p>
               </div>
             </div>
@@ -68,17 +68,17 @@ export default function EventHighlightsSection() {
             <div className="relative rounded-3xl overflow-hidden shadow-md border border-slate-200 group h-56 flex flex-col justify-end">
               <img
                 src="/images/scaleup/matching.jpg"
-                alt="Sesi Business Matching"
+                alt="Temu Bisnis & Kemitraan (Business Matching)"
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#16053b]/95 via-[#16053b]/40 to-transparent" />
               
               <div className="relative z-10 p-5 text-white">
                 <h4 className="font-display font-bold text-lg text-white mb-1">
-                  Sesi Business Matching
+                  Temu Bisnis & Kemitraan (Business Matching)
                 </h4>
                 <p className="text-slate-200 text-xs leading-relaxed">
-                  Pertemuan bisnis terarah antara BUMD, mitra teknologi, dan investor.
+                  Forum pertemuan terarah antara pimpinan BUMD, investor, perbankan, dan penyedia solusi teknologi.
                 </p>
               </div>
             </div>
@@ -87,17 +87,17 @@ export default function EventHighlightsSection() {
             <div className="relative rounded-3xl overflow-hidden shadow-md border border-slate-200 group h-56 flex flex-col justify-end">
               <img
                 src="/images/scaleup/showcase.jpg"
-                alt="Showcase Teknologi"
+                alt="Pameran Inovasi & Solusi Digital"
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#16053b]/95 via-[#16053b]/40 to-transparent" />
               
               <div className="relative z-10 p-5 text-white">
                 <h4 className="font-display font-bold text-lg text-white mb-1">
-                  Showcase Teknologi
+                  Pameran Inovasi & Solusi Digital
                 </h4>
                 <p className="text-slate-200 text-xs leading-relaxed">
-                  Demonstrasi langsung solusi digital untuk efisiensi dan daya saing BUMD.
+                  Demonstrasi langsung solusi digital dan teknologi terapan untuk mendorong efisiensi dan keunggulan kompetitif BUMD.
                 </p>
               </div>
             </div>
@@ -106,17 +106,17 @@ export default function EventHighlightsSection() {
             <div className="relative rounded-3xl overflow-hidden shadow-md border border-slate-200 group h-56 flex flex-col justify-end">
               <img
                 src="/images/scaleup/networking.jpg"
-                alt="Networking Strategis"
+                alt="Jejaring Strategis Tingkat Tinggi"
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#16053b]/95 via-[#16053b]/40 to-transparent" />
               
               <div className="relative z-10 p-5 text-white">
                 <h4 className="font-display font-bold text-lg text-white mb-1">
-                  Networking Strategis
+                  Jejaring Strategis Tingkat Tinggi
                 </h4>
                 <p className="text-slate-200 text-xs leading-relaxed">
-                  Resepsi eksekutif bersama para pemimpin dan pengambil kebijakan dari seluruh Indonesia.
+                  Sesi ramah tamah eksklusif untuk memperkuat sinergi antarpemimpin dan pembuat kebijakan dari seluruh Indonesia.
                 </p>
               </div>
             </div>

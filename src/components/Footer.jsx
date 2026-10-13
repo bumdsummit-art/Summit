@@ -18,7 +18,7 @@ export default function Footer() {
             </a>
 
             <p className="text-purple-200 text-sm leading-relaxed max-w-sm font-normal">
-              Summit eksekutif strategis yang menghubungkan BUMD, pimpinan pemerintah daerah, investor, dan mitra teknologi.
+              Konferensi tingkat tinggi eksekutif yang menghubungkan jajaran pimpinan BUMD, pemerintah daerah, investor, dan penyedia inovasi teknologi.
             </p>
           </div>
 
@@ -39,10 +39,10 @@ export default function Footer() {
           {/* Contact (Span 2) */}
           <div className="md:col-span-2 space-y-3">
             <span className="text-xs font-mono font-bold uppercase tracking-wider text-purple-300 block">
-              Kontak
+              Sekretariat & Narahubung
             </span>
             <div className="space-y-2.5 text-xs text-slate-200">
-              <div className="font-sans text-xs font-semibold text-white">Tim Kemitraan Acara</div>
+              <div className="font-sans text-xs font-semibold text-white">Tim Kemitraan & Kepesertaan</div>
               
               {/* Email with Icon */}
               <a
@@ -69,7 +69,7 @@ export default function Footer() {
           {/* Follow (Span 2) */}
           <div className="md:col-span-2 space-y-3">
             <span className="text-xs font-mono font-bold uppercase tracking-wider text-purple-300 block">
-              Ikuti Kami
+              Kanal Informasi Resmi
             </span>
             <div className="flex items-center gap-3">
               {/* Instagram Logo */}

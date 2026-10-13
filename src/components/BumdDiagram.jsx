@@ -160,7 +160,7 @@ export default function BumdDiagram() {
               Pemerintah
             </h4>
             <p className="text-xs sm:text-sm font-semibold text-slate-500 mt-1">
-              Kebijakan dan mandat
+              Kebijakan dan mandat regulasi
             </p>
           </div>
         </div>
@@ -189,7 +189,7 @@ export default function BumdDiagram() {
               Transformasi Digital
             </h4>
             <p className="text-xs sm:text-sm font-semibold text-slate-500 mt-1">
-              Sistem dan data
+              Integrasi sistem dan tata kelola data
             </p>
           </div>
         </div>
@@ -218,7 +218,7 @@ export default function BumdDiagram() {
               Kemitraan Strategis
             </h4>
             <p className="text-xs sm:text-sm font-semibold text-slate-500 mt-1">
-              Sektor swasta dan publik
+              Sinergi sektor publik dan swasta
             </p>
           </div>
         </div>
@@ -247,7 +247,7 @@ export default function BumdDiagram() {
               Jaringan Korporasi
             </h4>
             <p className="text-xs sm:text-sm font-semibold text-slate-500 mt-1">
-              Kolaborasi antardaerah
+              Aliansi dan kolaborasi antardaerah
             </p>
           </div>
         </div>
@@ -277,7 +277,7 @@ export default function BumdDiagram() {
               BUMD
             </span>
             <span className="text-[10px] sm:text-xs font-bold text-slate-200 tracking-tight mt-1 opacity-95">
-              Badan Usaha Daerah
+              Badan Usaha Milik Daerah
             </span>
           </div>
           </div>

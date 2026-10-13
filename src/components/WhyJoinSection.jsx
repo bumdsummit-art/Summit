@@ -5,22 +5,22 @@ export default function WhyJoinSection() {
   const benefits = [
     {
       title: 'Wawasan Kepemimpinan Strategis',
-      desc: 'Dapatkan perspektif langsung dari para pemimpin industri dan pakar transformasi bisnis.',
+      desc: 'Peroleh pandangan eksklusif langsung dari para pakar dan pemimpin industri mengenai arah masa depan serta model bisnis BUMD.',
       icon: Lightbulb,
     },
     {
-      title: 'Networking Eksekutif',
-      desc: 'Terhubung langsung dengan pengambil kebijakan, pimpinan BUMD, dan mitra strategis.',
+      title: 'Jejaring Eksekutif Tingkat Tinggi',
+      desc: 'Bangun hubungan strategis dengan para pengambil kebijakan, direksi BUMD seluruh Indonesia, dan mitra investasi.',
       icon: Users,
     },
     {
-      title: 'Transformasi Digital',
-      desc: 'Eksplorasi solusi teknologi terdepan untuk kesiapan organisasi menghadapi masa depan.',
+      title: 'Akselerasi Transformasi Digital',
+      desc: 'Eksplorasi adopsi teknologi mutakhir guna mengoptimalkan proses bisnis, efisiensi operasional, dan keandalan data.',
       icon: Cpu,
     },
     {
-      title: 'Kolaborasi Bisnis',
-      desc: 'Temukan peluang investasi, ekspansi pasar, dan kemitraan strategis antardaerah.',
+      title: 'Peluang Sinergi & Kemitraan Nyata',
+      desc: 'Buka peluang investasi baru, perluasan pangsa pasar, dan aliansi bisnis konkret antardaerah di seluruh Indonesia.',
       icon: Handshake,
     },
   ];
@@ -32,7 +32,7 @@ export default function WhyJoinSection() {
         {/* Title */}
         <div className="mb-12">
           <h2 className="font-display font-extrabold text-3xl sm:text-4xl md:text-5xl text-slate-900">
-            Mengapa Perlu Hadir
+            Alasan Mengapa Anda Harus Hadir
           </h2>
         </div>
 

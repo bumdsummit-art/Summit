@@ -27,7 +27,7 @@ export default function SponsorshipSection() {
                   PAKET REGULER
                 </h3>
                 <p className="text-xs font-semibold text-slate-600 mt-1">
-                  Akses Penuh ke Forum & Networking (Non-Inap)
+                  Akses Penuh Sesi Forum & Jejaring Eksekutif (Tanpa Akomodasi)
                 </p>
               </div>
 
@@ -44,35 +44,35 @@ export default function SponsorshipSection() {
                   <div className="w-5 h-5 rounded-full bg-[#1e074f] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Akses penuh seluruh sesi forum dan masterclass</span>
+                  <span className="font-medium">Akses penuh ke seluruh sesi forum dan masterclass eksekutif</span>
                 </li>
 
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-[#1e074f] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Networking dengan peserta, pembicara, dan mitra bisnis</span>
+                  <span className="font-medium">Perluasan jejaring strategis dengan delegasi, pembicara, dan mitra bisnis</span>
                 </li>
 
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-[#1e074f] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Materi presentasi dan e-sertifikat resmi</span>
+                  <span className="font-medium">Materi presentasi eksklusif dan e-sertifikat resmi</span>
                 </li>
 
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-[#1e074f] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Makan siang, coffee break, & summit kit</span>
+                  <span className="font-medium">Jamuan makan siang, rehat kopi (coffee break), dan kit konferensi resmi</span>
                 </li>
 
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-[#1e074f] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Akses ke area pameran dan business showcase</span>
+                  <span className="font-medium">Akses ke area pameran inovasi dan temu bisnis</span>
                 </li>
               </ul>
             </div>
@@ -112,7 +112,7 @@ export default function SponsorshipSection() {
                   RESIDENTIAL TWIN
                 </h3>
                 <p className="text-xs font-semibold text-slate-600 mt-1">
-                  Akses Penuh + Akomodasi Twin Sharing
+                  Akses Penuh + Akomodasi Hotel (Twin Sharing)
                 </p>
               </div>
 
@@ -129,28 +129,28 @@ export default function SponsorshipSection() {
                   <div className="w-5 h-5 rounded-full bg-[#f9572a] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-semibold text-slate-900">Semua fasilitas Paket Reguler</span>
+                  <span className="font-semibold text-slate-900">Seluruh fasilitas Paket Reguler</span>
                 </li>
 
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-[#f9572a] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Akomodasi 3 hari 2 malam (twin sharing)</span>
+                  <span className="font-medium">Akomodasi hotel 3 hari 2 malam (kamar berbagi / twin sharing)</span>
                 </li>
 
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-[#f9572a] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Sarapan pagi di hotel</span>
+                  <span className="font-medium">Sarapan pagi harian di hotel</span>
                 </li>
 
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-[#f9572a] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Antar jemput bandara (pp) sesuai jadwal resmi acara <span className="text-slate-500">(Biaya tambahan)</span></span>
+                  <span className="font-medium">Layanan antar jemput bandara pulang-pergi sesuai jadwal resmi <span className="text-slate-500">(opsional/biaya tambahan)</span></span>
                 </li>
               </ul>
             </div>
@@ -203,10 +203,10 @@ export default function SponsorshipSection() {
               {/* Description & Kalimat Ajakan Below Separator */}
               <div className="space-y-2.5 text-center px-1">
                 <p className="text-xs sm:text-sm text-slate-700 font-semibold leading-relaxed">
-                  Tersedia paket korporat untuk peserta lebih dari 1 (satu) orang.
+                  Dirancang khusus untuk rombongan delegasi, direksi, dan jajaran manajemen instansi/BUMD.
                 </p>
                 <p className="text-xs text-slate-500 leading-relaxed">
-                  Daftarkan tim & delegasi instansi Anda sekarang untuk mendapatkan penawaran spesial serta benefit eksklusif paket korporat BUMD!
+                  Daftarkan delegasi instansi Anda sekarang untuk memperoleh penawaran khusus serta manfaat kemitraan korporat eksklusif.
                 </p>
               </div>
             </div>

@@ -102,11 +102,11 @@ export default function PartnersFooter() {
             <div className="space-y-2 text-sm text-slate-300">
               <div className="flex items-center gap-2">
                 <Calendar className="w-4 h-4 text-amber-400 shrink-0" />
-                <span>18–19 November 2026</span>
+                <span>25–26 November 2026</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-amber-400 shrink-0" />
-                <span>JS Luwansa Hotel, Jakarta</span>
+                <span>Samisara Grand Ballroom, Jakarta</span>
               </div>
             </div>
           </div>
