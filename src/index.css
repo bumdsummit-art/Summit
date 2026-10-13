@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Montserrat', sans-serif;
+  --color-brand-purple: #240a5e;
+  --color-brand-darkpurple: #1a0647;
+  --color-brand-deepnavy: #0d0728;
+  --color-brand-orange: #f9572a;
+  --color-brand-lightpurple: #f3effe;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    color: #1e1b4b;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+
+
+/* Wavy Gradient Ribbon Accent overlay */
+.ribbon-gradient {
+  background: linear-gradient(135deg, #1b0849 0%, #3e128d 40%, #c026d3 70%, #f9572a 85%, #facc15 100%);
+}
+
+.ribbon-border {
+  height: 6px;
+  background: linear-gradient(to right, #3b0764, #7e22ce, #e11d48, #f9572a, #facc15);
+}
+
+/* Glowing shadow card */
+.card-glow {
+  box-shadow: 0 20px 40px -15px rgba(36, 10, 94, 0.12);
+}
+
+.card-glow-purple {
+  box-shadow: 0 25px 50px -12px rgba(36, 10, 94, 0.35);
+}
+
+/* Smooth fade animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #240a5e;
+  border-radius: 4px;
+}
