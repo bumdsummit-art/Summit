@@ -24,10 +24,10 @@ export default function SponsorshipSection() {
               {/* Title & Subtitle */}
               <div className="text-center mb-6">
                 <h3 className="font-display font-black text-2xl text-[#1e074f] uppercase tracking-tight">
-                  ENTRY TICKET
+                  PAKET REGULER
                 </h3>
                 <p className="text-xs font-semibold text-slate-600 mt-1">
-                  Akses Penuh ke Forum & Networking
+                  Akses Penuh ke Forum & Networking (Non-Inap)
                 </p>
               </div>
 
@@ -51,21 +51,21 @@ export default function SponsorshipSection() {
                   <div className="w-5 h-5 rounded-full bg-[#1e074f] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Networking dengan peserta, pembicara, dan business partners</span>
+                  <span className="font-medium">Networking dengan peserta, pembicara, dan mitra bisnis</span>
                 </li>
 
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-[#1e074f] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Materi presentasi dan e-certificate</span>
+                  <span className="font-medium">Materi presentasi dan e-sertifikat resmi</span>
                 </li>
 
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-[#1e074f] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Lunch, coffee break, & summit kit</span>
+                  <span className="font-medium">Makan siang, coffee break, & summit kit</span>
                 </li>
 
                 <li className="flex items-start gap-3">
@@ -129,7 +129,7 @@ export default function SponsorshipSection() {
                   <div className="w-5 h-5 rounded-full bg-[#f9572a] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-semibold text-slate-900">Semua benefit Entry Ticket</span>
+                  <span className="font-semibold text-slate-900">Semua fasilitas Paket Reguler</span>
                 </li>
 
                 <li className="flex items-start gap-3">
@@ -150,7 +150,7 @@ export default function SponsorshipSection() {
                   <div className="w-5 h-5 rounded-full bg-[#f9572a] text-white flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <span className="font-medium">Airport transfer (pp) sesuai jadwal resmi acara <span className="text-slate-500">(Additional charge)</span></span>
+                  <span className="font-medium">Antar jemput bandara (pp) sesuai jadwal resmi acara <span className="text-slate-500">(Biaya tambahan)</span></span>
                 </li>
               </ul>
             </div>
@@ -180,7 +180,7 @@ export default function SponsorshipSection() {
               {/* Title */}
               <div className="text-center mb-8">
                 <h3 className="font-display font-black text-2xl text-[#1e074f] uppercase tracking-tight max-w-[200px] mx-auto leading-tight">
-                  CORPORATE PACKAGE
+                  PAKET KORPORAT
                 </h3>
               </div>
 

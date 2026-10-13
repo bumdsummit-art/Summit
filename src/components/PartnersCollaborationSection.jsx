@@ -3,25 +3,25 @@ import React from 'react';
 export default function PartnersCollaborationSection() {
   const partners = [
     {
-      role: 'ORGANIZER',
+      role: 'PENYELENGGARA',
       name: 'IIRC - ITSB Innovation & Research Centre',
       logo: '/images/iirc-logo.png',
       imgClass: 'h-24 sm:h-28 lg:h-32 w-auto max-w-[94%] group-hover:scale-105',
     },
     {
-      role: 'KNOWLEDGE PARTNER',
+      role: 'MITRA PENGETAHUAN',
       name: 'Tenggara Strategics',
       logo: '/images/logos/tenggara.png',
       imgClass: 'w-full max-w-[96%] h-auto max-h-16 sm:max-h-20 lg:max-h-24 scale-105 group-hover:scale-110',
     },
     {
-      role: 'STRATEGIC PARTNER',
+      role: 'MITRA STRATEGIS',
       name: 'Harmoni Bisnis Antaranta',
       logo: '/images/logos/harmoni.png',
       imgClass: 'w-full max-w-[94%] h-auto max-h-18 sm:max-h-22 lg:max-h-26 scale-105 group-hover:scale-110',
     },
     {
-      role: 'STRATEGIC PARTNER',
+      role: 'MITRA STRATEGIS',
       name: 'EDC Forum',
       logo: '/images/logos/edc.png',
       imgClass: 'w-full max-w-[98%] h-auto max-h-16 sm:max-h-18 lg:max-h-22 scale-110 group-hover:scale-115',
@@ -46,7 +46,7 @@ export default function PartnersCollaborationSection() {
         
         <div className="text-center mb-10">
           <h2 className="font-display font-extrabold text-2xl sm:text-3xl text-slate-900">
-            Powered By Strategic Collaboration
+            Didukung oleh Kolaborasi Strategis
           </h2>
         </div>
 

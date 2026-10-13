@@ -18,14 +18,14 @@ export default function Footer() {
             </a>
 
             <p className="text-purple-200 text-sm leading-relaxed max-w-sm font-normal">
-              A strategic executive summit connecting regional enterprises, government leaders, investors and technology partners.
+              Summit eksekutif strategis yang menghubungkan BUMD, pimpinan pemerintah daerah, investor, dan mitra teknologi.
             </p>
           </div>
 
           {/* Organizer (Span 3) */}
           <div className="md:col-span-3 space-y-3">
             <span className="text-xs font-mono font-bold uppercase tracking-wider text-purple-300 block">
-              Organizer
+              Penyelenggara
             </span>
             <div className="pt-1">
               <img
@@ -39,10 +39,10 @@ export default function Footer() {
           {/* Contact (Span 2) */}
           <div className="md:col-span-2 space-y-3">
             <span className="text-xs font-mono font-bold uppercase tracking-wider text-purple-300 block">
-              Contact
+              Kontak
             </span>
             <div className="space-y-2.5 text-xs text-slate-200">
-              <div className="font-sans text-xs font-semibold text-white">Event Partnership Team</div>
+              <div className="font-sans text-xs font-semibold text-white">Tim Kemitraan Acara</div>
               
               {/* Email with Icon */}
               <a
@@ -69,7 +69,7 @@ export default function Footer() {
           {/* Follow (Span 2) */}
           <div className="md:col-span-2 space-y-3">
             <span className="text-xs font-mono font-bold uppercase tracking-wider text-purple-300 block">
-              Follow
+              Ikuti Kami
             </span>
             <div className="flex items-center gap-3">
               {/* Instagram Logo */}
@@ -123,7 +123,7 @@ export default function Footer() {
         {/* Bottom Bar matching Mockup Page 4 */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-purple-300/80 font-mono">
           <div>
-            © 2026 IIRC ITSB Innovation & Research Centre. All rights reserved.
+            © 2026 IIRC ITSB Innovation & Research Centre. Hak cipta dilindungi undang-undang.
           </div>
           <div>
             25–26 November 2026, Samisara Grand Ballroom, Jakarta

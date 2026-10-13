@@ -21,13 +21,13 @@ export default function JoinMovementSection() {
             <div className="lg:col-span-7 space-y-6">
               
               <h2 className="font-display font-black text-3xl sm:text-4xl md:text-5xl text-white leading-tight">
-                Join The <br />
-                Transformation <br />
-                Movement
+                Bergabung dalam <br />
+                Gerakan Transformasi <br />
+                BUMD 2026
               </h2>
 
               <p className="text-purple-200 text-base sm:text-lg max-w-lg font-medium">
-                Connect, collaborate, and shape the future of regional enterprises.
+                Terhubung, berkolaborasi, dan bersama membangun masa depan badan usaha daerah.
               </p>
 
               {/* Date & Location Badges */}
@@ -55,11 +55,11 @@ export default function JoinMovementSection() {
             <div className="lg:col-span-5 bg-white/10 backdrop-blur-md p-6 sm:p-8 rounded-3xl border border-white/20 shadow-xl space-y-5">
               
               <h3 className="font-display font-bold text-2xl text-white">
-                Secure your seat
+                Amankan Kursi Delegasi Anda
               </h3>
 
               <p className="text-xs sm:text-sm text-purple-200 leading-relaxed">
-                Seats are limited to invited executives and registered delegates.
+                Kuota terbatas khusus bagi jajaran eksekutif undangan dan delegasi terdaftar.
               </p>
 
               <a
@@ -68,7 +68,7 @@ export default function JoinMovementSection() {
                 rel="noreferrer"
                 className="w-full py-4 px-6 rounded-full text-sm font-bold text-white bg-[#f9572a] hover:bg-[#e0451a] shadow-xl shadow-[#f9572a]/30 transition flex items-center justify-center gap-2 group"
               >
-                <span>Register Your Seat</span>
+                <span>Daftarkan Kursi Anda</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
 
@@ -77,7 +77,7 @@ export default function JoinMovementSection() {
                   href="#sponsorship"
                   className="text-xs text-purple-200 hover:text-white underline font-semibold transition"
                 >
-                  Or explore sponsorship packages
+                  Atau pelajari paket sponsorship & korporat
                 </a>
               </div>
 
@@ -108,9 +108,9 @@ export default function JoinMovementSection() {
                 <div className="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto">
                   <CheckCircle2 className="w-10 h-10" />
                 </div>
-                <h3 className="font-display font-bold text-2xl text-slate-900">Registration Submitted!</h3>
+                <h3 className="font-display font-bold text-2xl text-slate-900">Pendaftaran Berhasil Dikirim!</h3>
                 <p className="text-xs text-slate-600">
-                  Thank you for registering for BUMD Scale Up Summit 2026. Our team will contact you shortly to confirm your seat and pass details.
+                  Terima kasih telah mendaftar BUMD Scale Up Summit 2026. Tim kami akan segera menghubungi Anda untuk konfirmasi detail kursi dan pass delegasi.
                 </p>
                 <button
                   onClick={() => {
@@ -119,7 +119,7 @@ export default function JoinMovementSection() {
                   }}
                   className="px-6 py-2.5 bg-[#240a5e] text-white text-xs font-bold rounded-xl"
                 >
-                  Close Window
+                  Tutup Jendela
                 </button>
               </div>
             ) : (
@@ -128,34 +128,34 @@ export default function JoinMovementSection() {
                 setSuccess(true);
               }} className="space-y-4">
                 <h3 className="font-display font-bold text-xl text-slate-900 mb-1">
-                  Delegate Registration
+                  Pendaftaran Delegasi
                 </h3>
                 <p className="text-xs text-slate-600 mb-4">
-                  Fill in your details below to register your seat for BUMD Scale Up Summit 2026.
+                  Lengkapi data Anda di bawah ini untuk mendaftarkan kursi pada BUMD Scale Up Summit 2026.
                 </p>
 
                 <div>
-                  <label className="block text-xs font-bold text-slate-700 uppercase mb-1">Full Name *</label>
+                  <label className="block text-xs font-bold text-slate-700 uppercase mb-1">Nama Lengkap *</label>
                   <input required type="text" placeholder="Dr. Jane Doe" className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-sm" />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold text-slate-700 uppercase mb-1">Title / Position *</label>
-                  <input required type="text" placeholder="Chief Executive Officer" className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-sm" />
+                  <label className="block text-xs font-bold text-slate-700 uppercase mb-1">Jabatan / Posisi *</label>
+                  <input required type="text" placeholder="Direktur Utama" className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-sm" />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold text-slate-700 uppercase mb-1">Organization / BUMD *</label>
-                  <input required type="text" placeholder="PT BUMD Nusantara" className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-sm" />
+                  <label className="block text-xs font-bold text-slate-700 uppercase mb-1">Instansi / BUMD *</label>
+                  <input required type="text" placeholder="PT BUMD Daerah" className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-sm" />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold text-slate-700 uppercase mb-1">Corporate Email *</label>
-                  <input required type="email" placeholder="jane@bumd.co.id" className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-sm" />
+                  <label className="block text-xs font-bold text-slate-700 uppercase mb-1">Email Resmi *</label>
+                  <input required type="email" placeholder="nama@bumd.co.id" className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-sm" />
                 </div>
 
                 <button type="submit" className="w-full py-3.5 bg-[#f9572a] text-white font-bold text-xs rounded-full shadow-lg shadow-[#f9572a]/30 hover:bg-[#e0451a] transition">
-                  Confirm Registration
+                  Konfirmasi Pendaftaran
                 </button>
               </form>
             )}

@@ -34,7 +34,7 @@ export default function ProgramSection() {
     },
     {
       code: 'FORMAT 04',
-      title: 'Business Showcase',
+      title: 'Pameran Bisnis',
       subtitle: 'Foto: area showcase',
       image: '/images/showcase.jpg',
       desc: 'Pameran solusi, inovasi, dan peluang bisnis dari BUMD, mitra, dan penyedia teknologi.',
@@ -137,7 +137,7 @@ export default function ProgramSection() {
 
               <div>
                 <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3 font-mono">
-                  Highlight Pengalaman
+                  Sorotan Pengalaman
                 </h4>
                 <ul className="space-y-2">
                   {selectedFormat.features.map((feat, i) => (

@@ -23,7 +23,7 @@ export default function PartnersFooter() {
           {/* Event Organizer */}
           <div>
             <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-slate-400 block mb-2">
-              EVENT ORGANIZER
+              PENGELOLA ACARA
             </span>
             <div className="font-bold text-white text-base">
               Harmoni Organizer
@@ -34,7 +34,7 @@ export default function PartnersFooter() {
           {/* Strategic Partner */}
           <div>
             <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-slate-400 block mb-2">
-              STRATEGIC PARTNER
+              MITRA STRATEGIS
             </span>
             <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs font-semibold text-slate-300">
               Kementerian Dalam Negeri RI
@@ -44,7 +44,7 @@ export default function PartnersFooter() {
           {/* Knowledge Partner */}
           <div>
             <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-slate-400 block mb-2">
-              KNOWLEDGE PARTNER
+              MITRA PENGETAHUAN
             </span>
             <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs font-semibold text-slate-300">
               BPKP & BSKDN
@@ -84,7 +84,7 @@ export default function PartnersFooter() {
             </div>
 
             <p className="text-slate-300 text-sm leading-relaxed max-w-md">
-              Transforming Regional Enterprises into Intelligent, Competitive and Globally Connected Businesses.
+              Mentransformasi Badan Usaha Milik Daerah Menjadi Bisnis yang Cerdas, Kompetitif, dan Terhubung Global.
             </p>
 
             <div className="pt-2">
@@ -149,7 +149,7 @@ export default function PartnersFooter() {
         {/* Bottom Copyright */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
-            © 2026 IIRC — ITSB Innovation & Research Centre. All rights reserved.
+            © 2026 IIRC — ITSB Innovation & Research Centre. Hak cipta dilindungi undang-undang.
           </div>
           <div>
             Desain Landing Page Resmi · BUMD Summit 2026

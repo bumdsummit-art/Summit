@@ -7,7 +7,7 @@ export default function PricingSection() {
   const packages = [
     {
       id: 'entry',
-      name: 'Entry Ticket',
+      name: 'Tiket Reguler',
       price: 'Rp6,5 jt',
       subtitle: 'Ideal untuk partisipan non-inap',
       isPopular: false,
@@ -36,25 +36,25 @@ export default function PricingSection() {
       single: true,
     },
     {
-      name: 'Networking dengan peserta, pembicara, dan business partners',
+      name: 'Networking dengan peserta, pembicara, dan mitra bisnis',
       entry: true,
       twin: true,
       single: true,
     },
     {
-      name: 'Materi presentasi dan e-certificate',
+      name: 'Materi presentasi dan e-sertifikat',
       entry: true,
       twin: true,
       single: true,
     },
     {
-      name: 'Lunch, coffee break, dan summit kit',
+      name: 'Makan siang, coffee break, dan summit kit',
       entry: true,
       twin: true,
       single: true,
     },
     {
-      name: 'Akses area pameran dan business showcase',
+      name: 'Akses area pameran dan pameran bisnis',
       entry: true,
       twin: true,
       single: true,
@@ -72,13 +72,13 @@ export default function PricingSection() {
       single: true,
     },
     {
-      name: 'Welcome dinner dan networking dinner',
+      name: 'Makan malam penyambutan dan networking dinner',
       entry: false,
       twin: true,
       single: true,
     },
     {
-      name: 'Airport transfer (pp) sesuai jadwal resmi acara',
+      name: 'Antar jemput bandara (pp) sesuai jadwal resmi acara',
       entry: false,
       twin: true,
       single: true,
@@ -173,7 +173,7 @@ export default function PricingSection() {
             <thead>
               <tr className="border-b border-slate-200 bg-white">
                 <th className="p-6 text-xs font-bold uppercase tracking-wider text-slate-500 font-mono w-2/5">
-                  BENEFIT
+                  FASILITAS & BENEFIT
                 </th>
                 {packages.map((pkg) => (
                   <th key={pkg.id} className={`p-6 text-center w-1/5 ${pkg.isPopular ? 'bg-indigo-950 text-white' : ''}`}>

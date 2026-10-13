@@ -27,19 +27,19 @@ export default function Navbar() {
           {/* Desktop Nav Links */}
           <div className="hidden lg:flex items-center gap-8">
             <a href="#about" className="text-sm font-semibold text-slate-700 hover:text-[#240a5e] transition">
-              About
+              Tentang
             </a>
             <a href="#why-join" className="text-sm font-semibold text-slate-700 hover:text-[#240a5e] transition">
-              Why join
+              Mengapa Hadir
             </a>
             <a href="#highlights" className="text-sm font-semibold text-slate-700 hover:text-[#240a5e] transition">
-              Highlights
+              Sorotan Acara
             </a>
             <a href="#speakers" className="text-sm font-semibold text-slate-700 hover:text-[#240a5e] transition">
-              Speakers
+              Pembicara
             </a>
             <a href="#sponsorship" className="text-sm font-semibold text-slate-700 hover:text-[#240a5e] transition">
-              Sponsorship
+              Kemitraan
             </a>
           </div>
 
@@ -51,7 +51,7 @@ export default function Navbar() {
               rel="noreferrer"
               className="px-5 py-2.5 rounded-full text-xs font-bold text-[#240a5e] border border-[#240a5e]/30 hover:bg-[#240a5e]/5 transition"
             >
-              Become a Sponsor
+              Menjadi Sponsor
             </a>
             <a
               href="https://forms.gle/kdhtCunAkdp23zm79"
@@ -59,7 +59,7 @@ export default function Navbar() {
               rel="noreferrer"
               className="px-6 py-2.5 rounded-full text-xs font-bold text-white bg-[#240a5e] hover:bg-[#1a0647] shadow-md shadow-[#240a5e]/20 transition"
             >
-              Register Now
+              Daftar Sekarang
             </a>
           </div>
 
@@ -84,35 +84,35 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50"
           >
-            About
+            Tentang
           </a>
           <a
             href="#why-join"
             onClick={() => setIsOpen(false)}
             className="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50"
           >
-            Why join
+            Mengapa Hadir
           </a>
           <a
             href="#highlights"
             onClick={() => setIsOpen(false)}
             className="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50"
           >
-            Highlights
+            Sorotan Acara
           </a>
           <a
             href="#speakers"
             onClick={() => setIsOpen(false)}
             className="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50"
           >
-            Speakers
+            Pembicara
           </a>
           <a
             href="#sponsorship"
             onClick={() => setIsOpen(false)}
             className="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50"
           >
-            Sponsorship
+            Kemitraan
           </a>
           <div className="pt-2 flex flex-col gap-2">
             <a
@@ -122,7 +122,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="w-full text-center py-2.5 rounded-full text-sm font-bold text-[#240a5e] border border-[#240a5e]/30"
             >
-              Become a Sponsor
+              Menjadi Sponsor
             </a>
             <a
               href="https://forms.gle/kdhtCunAkdp23zm79"
@@ -131,7 +131,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="w-full text-center py-2.5 rounded-full text-sm font-bold text-white bg-[#240a5e]"
             >
-              Register Now
+              Daftar Sekarang
             </a>
           </div>
         </div>

@@ -157,10 +157,10 @@ export default function BumdDiagram() {
               <Landmark className="w-6 h-6 stroke-[2.4]" />
             </div>
             <h4 className="font-display font-black text-slate-900 text-lg sm:text-xl tracking-tight leading-tight">
-              Government
+              Pemerintah
             </h4>
             <p className="text-xs sm:text-sm font-semibold text-slate-500 mt-1">
-              Policy and mandate
+              Kebijakan dan mandat
             </p>
           </div>
         </div>
@@ -186,10 +186,10 @@ export default function BumdDiagram() {
               <Cpu className="w-6 h-6 stroke-[2.4]" />
             </div>
             <h4 className="font-display font-black text-slate-900 text-lg sm:text-xl tracking-tight leading-tight">
-              Digital transformation
+              Transformasi Digital
             </h4>
             <p className="text-xs sm:text-sm font-semibold text-slate-500 mt-1">
-              Systems and data
+              Sistem dan data
             </p>
           </div>
         </div>
@@ -215,10 +215,10 @@ export default function BumdDiagram() {
               <LinkIcon className="w-6 h-6 stroke-[2.4]" />
             </div>
             <h4 className="font-display font-black text-slate-900 text-lg sm:text-xl tracking-tight leading-tight">
-              Strategic partnership
+              Kemitraan Strategis
             </h4>
             <p className="text-xs sm:text-sm font-semibold text-slate-500 mt-1">
-              Private and public
+              Sektor swasta dan publik
             </p>
           </div>
         </div>
@@ -244,10 +244,10 @@ export default function BumdDiagram() {
               <Users className="w-6 h-6 stroke-[2.4]" />
             </div>
             <h4 className="font-display font-black text-slate-900 text-lg sm:text-xl tracking-tight leading-tight">
-              Enterprise network
+              Jaringan Korporasi
             </h4>
             <p className="text-xs sm:text-sm font-semibold text-slate-500 mt-1">
-              Peers across regions
+              Kolaborasi antardaerah
             </p>
           </div>
         </div>
@@ -277,8 +277,9 @@ export default function BumdDiagram() {
               BUMD
             </span>
             <span className="text-[10px] sm:text-xs font-bold text-slate-200 tracking-tight mt-1 opacity-95">
-              Regional enterprise
+              Badan Usaha Daerah
             </span>
+          </div>
           </div>
 
         </div>

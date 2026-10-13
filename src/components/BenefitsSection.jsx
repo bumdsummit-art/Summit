@@ -24,7 +24,7 @@ export default function BenefitsSection() {
       icon: Coins,
     },
     {
-      role: 'Strategic Partners',
+      role: 'Mitra Strategis',
       desc: 'Mitra bisnis, asosiasi, dan lembaga pendukung sinergi sektor publik–swasta.',
       icon: Users,
     },
@@ -44,7 +44,7 @@ export default function BenefitsSection() {
       color: 'border-l-amber-500 bg-amber-50/40',
     },
     {
-      tag: 'UNTUK BUSINESS PARTNERS',
+      tag: 'UNTUK MITRA BISNIS & INVESTOR',
       title: 'Temukan peluang, bangun kolaborasi berdampak',
       desc: 'Akses langsung ke pengambil keputusan BUMD di seluruh Indonesia untuk memperkenalkan solusi dan membangun kemitraan jangka panjang.',
       color: 'border-l-purple-600 bg-purple-50/40',

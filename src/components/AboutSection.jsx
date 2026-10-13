@@ -16,7 +16,7 @@ export default function AboutSection() {
       id: 1,
       num: '01',
       stage: 'Fondasi Kepemimpinan',
-      title: 'Strengthen Leadership',
+      title: 'Perkuat Kepemimpinan',
       subtitle: 'Meningkatkan kapabilitas pemimpin BUMD',
       icon: Users,
       color: 'from-blue-600 to-indigo-700',
@@ -29,7 +29,7 @@ export default function AboutSection() {
       id: 2,
       num: '02',
       stage: 'Akselerasi Teknologi',
-      title: 'Accelerate Digital Transformation',
+      title: 'Akselerasi Transformasi Digital',
       subtitle: 'Mempercepat transformasi digital dan operasional',
       icon: Cpu,
       color: 'from-violet-600 to-purple-800',
@@ -42,7 +42,7 @@ export default function AboutSection() {
       id: 3,
       num: '03',
       stage: 'Akuntabilitas & Kepatuhan',
-      title: 'Improve Governance',
+      title: 'Tingkatkan Tata Kelola',
       subtitle: 'Mendorong tata kelola yang sehat dan efektif',
       icon: Landmark,
       color: 'from-purple-700 to-pink-700',
@@ -55,7 +55,7 @@ export default function AboutSection() {
       id: 4,
       num: '04',
       stage: 'Ekosistem & Kemitraan',
-      title: 'Connect Business Solutions',
+      title: 'Koneksikan Solusi Bisnis',
       subtitle: 'Mempertemukan BUMD dengan penyedia solusi',
       icon: Handshake,
       color: 'from-pink-600 to-[#f9572a]',
@@ -68,7 +68,7 @@ export default function AboutSection() {
       id: 5,
       num: '05',
       stage: 'Pertumbuhan & Permodalan',
-      title: 'Unlock Investment Opportunities',
+      title: 'Buka Peluang Investasi',
       subtitle: 'Membuka peluang investasi dan kemitraan',
       icon: TrendingUp,
       color: 'from-[#f9572a] to-amber-600',
@@ -81,7 +81,7 @@ export default function AboutSection() {
       id: 6,
       num: '06',
       stage: 'Sinergi Nasional',
-      title: 'Build Regional Collaboration',
+      title: 'Bangun Kolaborasi Antardaerah',
       subtitle: 'Membangun jaringan kolaborasi antardaerah',
       icon: Globe,
       color: 'from-amber-500 to-orange-600',
@@ -127,10 +127,10 @@ export default function AboutSection() {
             {/* Main Headline */}
             <div>
               <h2 className="font-display font-black text-3xl sm:text-5xl md:text-6xl text-[#1a0647] tracking-tight leading-[1.05]">
-                Event Objectives
+                Tujuan Acara
               </h2>
               <h3 className="font-display font-bold text-xl sm:text-2xl md:text-3xl text-slate-800 mt-2">
-                Building Competitive and <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#240a5e] via-purple-700 to-[#f9572a]">Sustainable BUMD</span>
+                Membangun BUMD yang <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#240a5e] via-purple-700 to-[#f9572a]">Kompetitif dan Berkelanjutan</span>
               </h3>
             </div>
 
@@ -143,7 +143,7 @@ export default function AboutSection() {
             </p>
           </div>
 
-          {/* Right Slogan Banner: STRONGER REGIONS BRIGHTER INDONESIA */}
+          {/* Right Slogan Banner */}
           <div className="lg:col-span-4 flex lg:justify-end">
             <div className="w-full sm:max-w-sm lg:w-full rounded-2xl bg-gradient-to-br from-[#1c084a] via-[#2a0c6d] to-[#120432] p-5 sm:p-6 text-white shadow-xl border border-purple-800/40 relative overflow-hidden group">
               {/* Background gradient & tech grid */}
@@ -152,9 +152,9 @@ export default function AboutSection() {
               
               <div className="relative z-10 space-y-2">
                 <h4 className="font-display font-black text-xl sm:text-2xl text-white tracking-wide uppercase leading-tight">
-                  STRONGER REGIONS <br />
+                  DAERAH MAJU <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-300 to-[#f9572a]">
-                    BRIGHTER INDONESIA
+                    INDONESIA JAYA
                   </span>
                 </h4>
                 
@@ -178,7 +178,7 @@ export default function AboutSection() {
             <div className="border-b border-slate-100 pb-5 mb-8">
               <div>
                 <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#f9572a] block mb-1">
-                  TRANSFORMATION TRAJECTORY
+                  TRAYEKTORI TRANSFORMASI
                 </span>
                 <p className="text-sm font-semibold text-slate-800">
                   Enam pilar akselerasi berkesinambungan menuju kemandirian ekonomi BUMD:

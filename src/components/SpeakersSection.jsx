@@ -14,7 +14,7 @@ export default function SpeakersSection() {
     },
     {
       name: 'Gita Wirjawan',
-      position: 'Former Minister of Trade 2011 - 2014',
+      position: 'Menteri Perdagangan RI 2011–2014',
       image: '/images/speakers/Gita Wirjawan.png',
     },
     {
@@ -57,7 +57,7 @@ export default function SpeakersSection() {
     },
     {
       name: 'Tina Melinda',
-      position: 'Director of IIRC',
+      position: 'Direktur IIRC',
       image: '/images/speakers/Tina Melinda.png',
     },
   ];
@@ -71,7 +71,7 @@ export default function SpeakersSection() {
           
           <div className="mb-10">
             <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-white">
-              Speakers and Leadership
+              Pembicara dan Pimpinan Sesi
             </h2>
           </div>
 

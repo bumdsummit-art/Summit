@@ -4,23 +4,23 @@ import { Lightbulb, Users, Cpu, Handshake } from 'lucide-react';
 export default function WhyJoinSection() {
   const benefits = [
     {
-      title: 'Strategic Leadership Insight',
-      desc: 'Gain perspectives from industry leaders and transformation experts.',
+      title: 'Wawasan Kepemimpinan Strategis',
+      desc: 'Dapatkan perspektif langsung dari para pemimpin industri dan pakar transformasi bisnis.',
       icon: Lightbulb,
     },
     {
-      title: 'Executive Networking',
-      desc: 'Connect with decision makers, business leaders, and strategic partners.',
+      title: 'Networking Eksekutif',
+      desc: 'Terhubung langsung dengan pengambil kebijakan, pimpinan BUMD, dan mitra strategis.',
       icon: Users,
     },
     {
-      title: 'Digital Transformation',
-      desc: 'Explore technology solutions for future-ready organizations.',
+      title: 'Transformasi Digital',
+      desc: 'Eksplorasi solusi teknologi terdepan untuk kesiapan organisasi menghadapi masa depan.',
       icon: Cpu,
     },
     {
-      title: 'Business Collaboration',
-      desc: 'Discover partnership and investment opportunities.',
+      title: 'Kolaborasi Bisnis',
+      desc: 'Temukan peluang investasi, ekspansi pasar, dan kemitraan strategis antardaerah.',
       icon: Handshake,
     },
   ];
@@ -32,7 +32,7 @@ export default function WhyJoinSection() {
         {/* Title */}
         <div className="mb-12">
           <h2 className="font-display font-extrabold text-3xl sm:text-4xl md:text-5xl text-slate-900">
-            Why Join the Summit
+            Mengapa Perlu Hadir
           </h2>
         </div>
 
