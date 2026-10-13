@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1. Forward assets and static files to dist/
+  RewriteRule ^assets/(.*)$ dist/assets/$1 [L]
+  RewriteRule ^images/(.*)$ dist/images/$1 [L]
+  RewriteRule ^favicon\.svg$ dist/favicon.svg [L]
+  RewriteRule ^icons\.svg$ dist/icons.svg [L]
+
+  # 2. Forward root request to dist/index.html
+  RewriteRule ^$ dist/index.html [L]
+
+  # 3. SPA Fallback for any other request
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . dist/index.html [L]
+</IfModule>
