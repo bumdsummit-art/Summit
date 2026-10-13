@@ -43,21 +43,13 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* Desktop Action Buttons */}
-          <div className="hidden lg:flex items-center gap-3">
-            <a
-              href="https://wa.me/6285973209723"
-              target="_blank"
-              rel="noreferrer"
-              className="px-5 py-2.5 rounded-full text-xs font-bold text-[#240a5e] border border-[#240a5e]/30 hover:bg-[#240a5e]/5 transition"
-            >
-              Menjadi Sponsor
-            </a>
+          {/* Desktop Action Button */}
+          <div className="hidden lg:flex items-center">
             <a
               href="https://forms.gle/kdhtCunAkdp23zm79"
               target="_blank"
               rel="noreferrer"
-              className="px-6 py-2.5 rounded-full text-xs font-bold text-white bg-[#240a5e] hover:bg-[#1a0647] shadow-md shadow-[#240a5e]/20 transition"
+              className="px-6 py-2.5 rounded-full text-xs font-bold text-white bg-[#240a5e] hover:bg-[#1a0647] shadow-md shadow-[#240a5e]/20 hover:scale-105 transition-all duration-200"
             >
               Daftar Sekarang
             </a>
@@ -114,22 +106,13 @@ export default function Navbar() {
           >
             Kemitraan
           </a>
-          <div className="pt-2 flex flex-col gap-2">
-            <a
-              href="https://wa.me/6285973209723"
-              target="_blank"
-              rel="noreferrer"
-              onClick={() => setIsOpen(false)}
-              className="w-full text-center py-2.5 rounded-full text-sm font-bold text-[#240a5e] border border-[#240a5e]/30"
-            >
-              Menjadi Sponsor
-            </a>
+          <div className="pt-2">
             <a
               href="https://forms.gle/kdhtCunAkdp23zm79"
               target="_blank"
               rel="noreferrer"
               onClick={() => setIsOpen(false)}
-              className="w-full text-center py-2.5 rounded-full text-sm font-bold text-white bg-[#240a5e]"
+              className="w-full text-center py-3 rounded-full text-sm font-bold text-white bg-[#240a5e] hover:bg-[#1a0647] shadow-md block transition"
             >
               Daftar Sekarang
             </a>
