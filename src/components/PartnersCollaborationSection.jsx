@@ -3,37 +3,37 @@ import React from 'react';
 export default function PartnersCollaborationSection() {
   const partners = [
     {
-      role: 'PENYELENGGARA',
+      role: 'Organizer',
       name: 'IIRC - ITSB Innovation & Research Centre',
       logo: '/images/iirc-logo.png',
       imgClass: 'h-24 sm:h-28 lg:h-32 w-auto max-w-[94%] group-hover:scale-105',
     },
     {
-      role: 'MITRA PENGETAHUAN',
+      role: 'Knowledge Partner',
       name: 'Tenggara Strategics',
       logo: '/images/logos/tenggara.png',
       imgClass: 'w-full max-w-[96%] h-auto max-h-16 sm:max-h-20 lg:max-h-24 scale-105 group-hover:scale-110',
     },
     {
-      role: 'MITRA STRATEGIS',
+      role: 'Strategic Partner',
       name: 'Harmoni Bisnis Antaranta',
       logo: '/images/logos/harmoni.png',
       imgClass: 'w-full max-w-[94%] h-auto max-h-18 sm:max-h-22 lg:max-h-26 scale-105 group-hover:scale-110',
     },
     {
-      role: 'MITRA STRATEGIS',
+      role: 'Strategic Partner',
       name: 'EDC Forum',
       logo: '/images/logos/edc.png',
       imgClass: 'w-full max-w-[98%] h-auto max-h-16 sm:max-h-18 lg:max-h-22 scale-110 group-hover:scale-115',
     },
     {
-      role: 'INCOLAB',
+      role: 'In Collaboration with',
       name: 'Techconnect',
       logo: '/images/logos/techconnect.png',
       imgClass: 'w-full max-w-[98%] h-auto max-h-16 sm:max-h-18 lg:max-h-22 scale-110 group-hover:scale-115',
     },
     {
-      role: 'INCOLAB',
+      role: 'In Collaboration with',
       name: 'ITSB Corporation',
       logo: '/images/logos/itsb-corporation.png',
       imgClass: 'w-full max-w-[96%] h-auto max-h-18 sm:max-h-20 lg:max-h-24 scale-105 group-hover:scale-110',
@@ -60,7 +60,7 @@ export default function PartnersCollaborationSection() {
                   index !== partners.length - 1 ? 'lg:border-r lg:border-slate-200/80' : ''
                 }`}
               >
-                <span className="text-[10px] sm:text-[11px] lg:text-xs font-mono font-bold uppercase tracking-wider text-slate-400 block mb-4 whitespace-nowrap">
+                <span className="text-[11px] sm:text-xs font-semibold text-slate-500 block mb-4 whitespace-nowrap">
                   {partner.role}
                 </span>
                 

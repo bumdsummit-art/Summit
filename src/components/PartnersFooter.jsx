@@ -11,8 +11,8 @@ export default function PartnersFooter() {
           
           {/* Penyelenggara */}
           <div>
-            <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-slate-400 block mb-2">
-              PENYELENGGARA
+            <span className="text-[11px] font-semibold text-slate-400 block mb-2">
+              Organizer
             </span>
             <div className="font-bold text-white text-base">
               IIRC · ITSB
@@ -22,8 +22,8 @@ export default function PartnersFooter() {
 
           {/* Event Organizer */}
           <div>
-            <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-slate-400 block mb-2">
-              PENGELOLA ACARA
+            <span className="text-[11px] font-semibold text-slate-400 block mb-2">
+              Event Organizer
             </span>
             <div className="font-bold text-white text-base">
               Harmoni Organizer
@@ -33,8 +33,8 @@ export default function PartnersFooter() {
 
           {/* Strategic Partner */}
           <div>
-            <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-slate-400 block mb-2">
-              MITRA STRATEGIS
+            <span className="text-[11px] font-semibold text-slate-400 block mb-2">
+              Strategic Partner
             </span>
             <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs font-semibold text-slate-300">
               Kementerian Dalam Negeri RI
@@ -43,8 +43,8 @@ export default function PartnersFooter() {
 
           {/* Knowledge Partner */}
           <div>
-            <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-slate-400 block mb-2">
-              MITRA PENGETAHUAN
+            <span className="text-[11px] font-semibold text-slate-400 block mb-2">
+              Knowledge Partner
             </span>
             <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs font-semibold text-slate-300">
               BPKP & BSKDN
@@ -53,8 +53,8 @@ export default function PartnersFooter() {
 
           {/* Sponsorship */}
           <div>
-            <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-slate-400 block mb-2">
-              SPONSORSHIP
+            <span className="text-[11px] font-semibold text-slate-400 block mb-2">
+              Sponsorship
             </span>
             <a
               href="#registrasi"
