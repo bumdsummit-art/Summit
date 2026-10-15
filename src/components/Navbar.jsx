@@ -9,8 +9,8 @@ export default function Navbar() {
       <div className="max-w-7xl 2xl:max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-4">
           
-          {/* Main Brand & 3 Partner Logos Lockup */}
-          <div className="flex items-center gap-2.5 sm:gap-3 lg:gap-4 shrink-0">
+          {/* Main Brand & 3 Partner Logos Lockup (Plain, no titles, no dividers) */}
+          <div className="flex items-center gap-4 lg:gap-6 shrink-0">
             
             {/* Main Brand Logo */}
             <a href="#" className="flex items-center gap-2 sm:gap-2.5 shrink-0 group">
@@ -27,54 +27,23 @@ export default function Navbar() {
               </span>
             </a>
 
-            {/* Vertical Divider beside 2026 */}
-            <div className="hidden md:block h-8 w-px bg-slate-200/90 mx-0.5 lg:mx-1" />
-
-            {/* 3 Partner Logos (Organizer, Strategic Partner, In Collaboration with) */}
-            <div className="hidden md:flex items-center gap-2.5 lg:gap-3.5">
-              
-              {/* 1. Organizer */}
-              <div className="flex flex-col items-center justify-center text-center">
-                <span className="text-[9px] lg:text-[10px] font-semibold text-slate-500 tracking-tight leading-none mb-1 whitespace-nowrap">
-                  Organizer
-                </span>
-                <img
-                  src="/images/iirc-logo.png"
-                  alt="IIRC - ITSB Innovation & Research Centre"
-                  className="h-6 sm:h-7 lg:h-7.5 w-auto max-w-[70px] lg:max-w-[85px] object-contain hover:opacity-90 transition-opacity"
-                />
-              </div>
-
-              {/* Separator */}
-              <div className="h-6 w-px bg-slate-200/70" />
-
-              {/* 2. Strategic Partner */}
-              <div className="flex flex-col items-center justify-center text-center">
-                <span className="text-[9px] lg:text-[10px] font-semibold text-slate-500 tracking-tight leading-none mb-1 whitespace-nowrap">
-                  Strategic Partner
-                </span>
-                <img
-                  src="/images/logos/harmoni.png"
-                  alt="Harmoni Bisnis Antaranta"
-                  className="h-4.5 sm:h-5 lg:h-5.5 w-auto max-w-[85px] lg:max-w-[105px] object-contain hover:opacity-90 transition-opacity"
-                />
-              </div>
-
-              {/* Separator */}
-              <div className="h-6 w-px bg-slate-200/70" />
-
-              {/* 3. In Collaboration with */}
-              <div className="flex flex-col items-center justify-center text-center">
-                <span className="text-[9px] lg:text-[10px] font-semibold text-slate-500 tracking-tight leading-none mb-1 whitespace-nowrap">
-                  In Collaboration with
-                </span>
-                <img
-                  src="/images/logos/itsb-corporation.png"
-                  alt="ITSB Corporation"
-                  className="h-4.5 sm:h-5 lg:h-5.5 w-auto max-w-[85px] lg:max-w-[105px] object-contain hover:opacity-90 transition-opacity"
-                />
-              </div>
-
+            {/* 3 Partner Logos directly beside 2026 (Plain, cleanly spaced) */}
+            <div className="hidden md:flex items-center gap-4 lg:gap-5.5">
+              <img
+                src="/images/iirc-logo.png"
+                alt="IIRC - ITSB Innovation & Research Centre"
+                className="h-7.5 lg:h-8.5 w-auto object-contain hover:opacity-85 transition-opacity"
+              />
+              <img
+                src="/images/logos/harmoni.png"
+                alt="Harmoni Bisnis Antaranta"
+                className="h-5.5 lg:h-6.5 w-auto object-contain hover:opacity-85 transition-opacity"
+              />
+              <img
+                src="/images/logos/itsb-corporation.png"
+                alt="ITSB Corporation"
+                className="h-5.5 lg:h-6.5 w-auto object-contain hover:opacity-85 transition-opacity"
+              />
             </div>
 
           </div>
@@ -163,22 +132,11 @@ export default function Navbar() {
             Kemitraan
           </a>
 
-          {/* Partner Logos for mobile devices when menu is opened */}
-          <div className="pt-4 mt-2 border-t border-slate-100 md:hidden">
-            <div className="grid grid-cols-3 gap-2 items-end text-center">
-              <div className="flex flex-col items-center">
-                <span className="text-[9px] font-semibold text-slate-400 mb-1 leading-none">Organizer</span>
-                <img src="/images/iirc-logo.png" alt="IIRC" className="h-6 w-auto object-contain" />
-              </div>
-              <div className="flex flex-col items-center">
-                <span className="text-[9px] font-semibold text-slate-400 mb-1 leading-none">Strategic Partner</span>
-                <img src="/images/logos/harmoni.png" alt="Harmoni" className="h-4.5 w-auto object-contain" />
-              </div>
-              <div className="flex flex-col items-center">
-                <span className="text-[9px] font-semibold text-slate-400 mb-1 leading-none">In Collaboration with</span>
-                <img src="/images/logos/itsb-corporation.png" alt="ITSB" className="h-4.5 w-auto object-contain" />
-              </div>
-            </div>
+          {/* Partner Logos for mobile devices when menu is opened (plain) */}
+          <div className="pt-4 mt-2 border-t border-slate-100 md:hidden flex items-center justify-around gap-3">
+            <img src="/images/iirc-logo.png" alt="IIRC" className="h-7 w-auto object-contain" />
+            <img src="/images/logos/harmoni.png" alt="Harmoni" className="h-5 w-auto object-contain" />
+            <img src="/images/logos/itsb-corporation.png" alt="ITSB" className="h-5 w-auto object-contain" />
           </div>
 
           <div className="pt-2">
