@@ -1,104 +1,130 @@
-import React, { useState, useEffect } from 'react';
-import { 
-  Users, 
-  Cpu, 
-  Landmark, 
-  Handshake, 
-  TrendingUp, 
-  Globe
-} from 'lucide-react';
+import React from 'react';
+
+// Bottom Dual-Wave vector graphic matching Screenshot 2 reference
+function CardWave() {
+  return (
+    <div className="absolute bottom-0 left-0 right-0 h-11 sm:h-12 overflow-hidden pointer-events-none select-none">
+      <svg
+        viewBox="0 0 360 52"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        className="w-full h-full"
+      >
+        <defs>
+          {/* Primary Violet / Purple Gradient */}
+          <linearGradient id="wavePurpleGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="0%" stopColor="#4f46e5" />
+            <stop offset="45%" stopColor="#6366f1" />
+            <stop offset="100%" stopColor="#8b5cf6" />
+          </linearGradient>
+
+          {/* Secondary Soft Violet Crest */}
+          <linearGradient id="wavePurpleSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#818cf8" stopOpacity="0.35" />
+            <stop offset="100%" stopColor="#c084fc" stopOpacity="0.08" />
+          </linearGradient>
+
+          {/* Primary Vibrant Orange / Amber Gradient */}
+          <linearGradient id="waveOrangeGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="0%" stopColor="#ea580c" />
+            <stop offset="45%" stopColor="#f97316" />
+            <stop offset="100%" stopColor="#f59e0b" />
+          </linearGradient>
+
+          {/* Secondary Soft Orange Swell */}
+          <linearGradient id="waveOrangeSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#fb923c" stopOpacity="0.4" />
+            <stop offset="100%" stopColor="#fde047" stopOpacity="0.15" />
+          </linearGradient>
+        </defs>
+
+        {/* Soft Violet Backdrop Wave */}
+        <path
+          d="M0 30C50 18 120 20 180 32C240 44 290 42 360 36V52H0V30Z"
+          fill="url(#wavePurpleSoft)"
+        />
+
+        {/* Left Purple Wave flowing down toward the center-right */}
+        <path
+          d="M0 34C40 24 90 26 140 34C180 41 220 45 260 47L0 52V34Z"
+          fill="url(#wavePurpleGrad)"
+          fillOpacity="0.9"
+        />
+
+        {/* Soft Orange Backdrop Wave */}
+        <path
+          d="M100 52C150 42 200 26 260 17C290 12 325 13 360 17V52H100Z"
+          fill="url(#waveOrangeSoft)"
+        />
+
+        {/* Primary Right Orange/Amber Wave Sweeping Upwards to the Corner */}
+        <path
+          d="M120 52C170 44 220 30 270 21C300 16 330 17 360 21V52H120Z"
+          fill="url(#waveOrangeGrad)"
+        />
+      </svg>
+    </div>
+  );
+}
 
 export default function AboutSection() {
-  const [activeStep, setActiveStep] = useState(0);
-
-  const objectives = [
+  const keyCards = [
     {
-      id: 1,
       num: '01',
-      stage: 'Fondasi Kepemimpinan',
-      title: 'Penguatan Kepemimpinan',
-      subtitle: 'Membangun kepemimpinan visioner, adaptif, dan berintegritas tinggi',
-      icon: Users,
-      color: 'from-blue-600 to-indigo-700',
-      accentColor: '#4f46e5',
-      lightBg: 'bg-indigo-50/60',
-      badgeBorder: 'border-indigo-200',
-      badgeText: 'text-indigo-700',
+      badgeBg: 'bg-[#fff2e8]',
+      badgeText: 'text-[#ea580c]',
+      category: 'FONDASI KEPEMIMPINAN',
+      categoryColor: 'text-[#ea580c]',
+      title: 'Perkuat Kepemimpinan',
+      subtitle: 'Meningkatkan kapabilitas pemimpin BUMD',
     },
     {
-      id: 2,
       num: '02',
-      stage: 'Akselerasi Teknologi',
+      badgeBg: 'bg-[#eff3ff]',
+      badgeText: 'text-[#4338ca]',
+      category: 'AKSELERASI TEKNOLOGI',
+      categoryColor: 'text-[#4f46e5]',
       title: 'Akselerasi Transformasi Digital',
-      subtitle: 'Mengintegrasikan teknologi mutakhir untuk efisiensi operasional',
-      icon: Cpu,
-      color: 'from-violet-600 to-purple-800',
-      accentColor: '#7c3aed',
-      lightBg: 'bg-violet-50/60',
-      badgeBorder: 'border-violet-200',
-      badgeText: 'text-violet-700',
+      subtitle: 'Mempercepat transformasi digital dan operasional',
     },
     {
-      id: 3,
       num: '03',
-      stage: 'Akuntabilitas & Kepatuhan',
-      title: 'Peningkatan Tata Kelola',
-      subtitle: 'Menerapkan tata kelola yang sehat, transparan, dan akuntabel',
-      icon: Landmark,
-      color: 'from-purple-700 to-pink-700',
-      accentColor: '#9333ea',
-      lightBg: 'bg-purple-50/60',
-      badgeBorder: 'border-purple-200',
-      badgeText: 'text-purple-700',
+      badgeBg: 'bg-[#fffbeb]',
+      badgeText: 'text-[#d97706]',
+      category: 'AKUNTABILITAS & KEPATUHAN',
+      categoryColor: 'text-[#d97706]',
+      title: 'Tingkatkan Tata Kelola',
+      subtitle: 'Mendorong tata kelola yang sehat dan efektif',
     },
     {
-      id: 4,
       num: '04',
-      stage: 'Ekosistem & Kemitraan',
-      title: 'Konektivitas Solusi Bisnis',
-      subtitle: 'Menghubungkan BUMD dengan mitra teknologi dan inovasi terdepan',
-      icon: Handshake,
-      color: 'from-pink-600 to-[#f9572a]',
-      accentColor: '#db2777',
-      lightBg: 'bg-pink-50/60',
-      badgeBorder: 'border-pink-200',
-      badgeText: 'text-pink-700',
+      badgeBg: 'bg-[#f5f3ff]',
+      badgeText: 'text-[#7c3aed]',
+      category: 'EKOSISTEM & KEMITRAAN',
+      categoryColor: 'text-[#7c3aed]',
+      title: 'Koneksikan Solusi Bisnis',
+      subtitle: 'Mempertemukan BUMD dengan penyedia solusi',
     },
     {
-      id: 5,
       num: '05',
-      stage: 'Pertumbuhan & Permodalan',
-      title: 'Perluasan Akses Investasi',
-      subtitle: 'Membuka peluang pendanaan dan kemitraan modal berkelanjutan',
-      icon: TrendingUp,
-      color: 'from-[#f9572a] to-amber-600',
-      accentColor: '#f9572a',
-      lightBg: 'bg-orange-50/60',
-      badgeBorder: 'border-orange-200',
-      badgeText: 'text-[#f9572a]',
+      badgeBg: 'bg-[#fff1f0]',
+      badgeText: 'text-[#ea580c]',
+      category: 'PERTUMBUHAN & PERMODALAN',
+      categoryColor: 'text-[#ea580c]',
+      title: 'Buka Peluang Investasi',
+      subtitle: 'Membuka peluang investasi dan kemitraan',
     },
     {
-      id: 6,
       num: '06',
-      stage: 'Sinergi Nasional',
-      title: 'Kolaborasi Antardaerah',
-      subtitle: 'Membangun jaringan aliansi bisnis dan kemitraan strategis antardaerah',
-      icon: Globe,
-      color: 'from-amber-500 to-orange-600',
-      accentColor: '#f59e0b',
-      lightBg: 'bg-amber-50/60',
-      badgeBorder: 'border-amber-200',
-      badgeText: 'text-amber-700',
+      badgeBg: 'bg-[#eef2ff]',
+      badgeText: 'text-[#4338ca]',
+      category: 'SINERGI NASIONAL',
+      categoryColor: 'text-[#4338ca]',
+      title: 'Bangun Kolaborasi Antardaerah',
+      subtitle: 'Membangun jaringan kolaborasi antardaerah',
     },
   ];
-
-  // Automatic sequential highlighter every 2 seconds
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setActiveStep((prev) => (prev + 1) % objectives.length);
-    }, 2000); // 2 detik bergantian
-    return () => clearInterval(timer);
-  }, [objectives.length]);
 
   return (
     <section id="about" className="py-16 sm:py-20 md:py-28 bg-gradient-to-b from-white via-slate-50/70 to-white text-slate-900 border-t border-slate-100 relative overflow-hidden">
@@ -168,241 +194,57 @@ export default function AboutSection() {
         </div>
 
         {/* ==================================================================== */}
-        {/* DESKTOP ASCENDING TRAJECTORY ROADMAP (AUTO-HIGHLIGHTING EVERY 2S)    */}
+        {/* NEW KEY CARDS SECTION: PERJALANAN TRANSFORMASI (6 PILAR AKSELERASI) */}
         {/* ==================================================================== */}
-        <div className="hidden lg:block mb-12">
+        <div className="mb-14 md:mb-16">
           
-          <div className="bg-white rounded-3xl p-8 xl:p-10 border border-slate-200/90 shadow-xl shadow-purple-950/5 relative overflow-hidden">
-            
-            {/* Top Status Header */}
-            <div className="border-b border-slate-100 pb-5 mb-8">
-              <div>
-                <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#f9572a] block mb-1">
-                  ALUR TRANSFORMASI STRATEGIS
-                </span>
-                <p className="text-sm font-semibold text-slate-800">
-                  Enam tahapan akselerasi berkesinambungan menuju kemandirian ekonomi daerah:
-                </p>
-              </div>
+          {/* Overline with Gradient Pill Bar and Main Question/Headline */}
+          <div className="mb-6 sm:mb-8">
+            <div className="flex items-center gap-3 mb-2.5">
+              <span className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#ea580c]">
+                PERJALANAN TRANSFORMASI
+              </span>
+              <div className="h-1 w-14 sm:w-16 rounded-full bg-gradient-to-r from-purple-800 via-pink-600 to-amber-400" />
             </div>
 
-            {/* Ascending Stepper Cards Grid with Pure SVG Flow Vector */}
-            <div className="relative pt-6 pb-6">
-              
-              {/* Dynamic SVG Ascending Ribbon Curve connecting all 6 nodes */}
-              <div className="absolute inset-0 pointer-events-none select-none z-0">
-                <svg className="w-full h-full" viewBox="0 0 1000 240" fill="none" preserveAspectRatio="none">
-                  <defs>
-                    <linearGradient id="roadmapGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-                      <stop offset="0%" stopColor="#4f46e5" stopOpacity="0.4" />
-                      <stop offset="25%" stopColor="#7c3aed" stopOpacity="0.6" />
-                      <stop offset="50%" stopColor="#9333ea" stopOpacity="0.8" />
-                      <stop offset="75%" stopColor="#f9572a" stopOpacity="0.9" />
-                      <stop offset="100%" stopColor="#f59e0b" stopOpacity="1" />
-                    </linearGradient>
-                    <linearGradient id="roadmapGradGlow" x1="0%" y1="100%" x2="100%" y2="0%">
-                      <stop offset="0%" stopColor="#4f46e5" stopOpacity="0.1" />
-                      <stop offset="100%" stopColor="#f59e0b" stopOpacity="0.25" />
-                    </linearGradient>
-                  </defs>
-
-                  {/* Wide Glow Under-stroke */}
-                  <path
-                    d="M 50 185 Q 260 175, 450 135 T 950 40"
-                    stroke="url(#roadmapGradGlow)"
-                    strokeWidth="16"
-                    strokeLinecap="round"
-                  />
-
-                  {/* Main Gradient Trajectory Line */}
-                  <path
-                    d="M 50 185 Q 260 175, 450 135 T 950 40"
-                    stroke="url(#roadmapGrad)"
-                    strokeWidth="4"
-                    strokeDasharray="8 6"
-                    strokeLinecap="round"
-                  />
-
-                  {/* Terminal Arrow Head */}
-                  <polygon
-                    points="950,40 930,35 940,55"
-                    fill="#f59e0b"
-                  />
-                </svg>
-              </div>
-
-              {/* 6 Ascending Step Columns with Automatic Highlight Transition */}
-              <div className="grid grid-cols-6 gap-3.5 relative z-10">
-                {objectives.map((item, index) => {
-                  const IconComp = item.icon;
-                  const isActive = activeStep === index;
-                  
-                  // Ascending vertical offsets matching the upward curve from reference
-                  const offsets = [
-                    'mt-20',   // Step 1: Base elevation
-                    'mt-16',   // Step 2
-                    'mt-12',   // Step 3
-                    'mt-8',    // Step 4
-                    'mt-4',    // Step 5
-                    'mt-0',    // Step 6: Peak elevation
-                  ];
-
-                  return (
-                    <div
-                      key={item.id}
-                      className={`transition-all duration-500 flex flex-col justify-between ${offsets[index]}`}
-                    >
-                      {/* Top Node Connector & Icon */}
-                      <div className="flex flex-col items-center mb-3">
-                        {/* Node circle */}
-                        <div className="relative">
-                          {isActive && (
-                            <span className="animate-ping absolute -inset-1 rounded-full bg-orange-400 opacity-60" />
-                          )}
-                          <div 
-                            className={`w-14 h-14 rounded-2xl flex items-center justify-center transition-all duration-500 shadow-md ${
-                              isActive
-                                ? 'bg-gradient-to-br ' + item.color + ' text-white scale-110 shadow-lg ring-4 ring-orange-200/80 shadow-orange-500/20'
-                                : 'bg-white border-2 border-slate-200 text-slate-500 scale-95 opacity-80'
-                            }`}
-                          >
-                            <IconComp className={`w-6 h-6 transition-colors duration-300 ${isActive ? 'text-white' : 'text-slate-500'}`} />
-                          </div>
-                        </div>
-
-                        {/* Connector Pin / Stalk */}
-                        <div className={`w-0.5 h-4 transition-colors duration-500 ${isActive ? 'bg-[#f9572a]' : 'bg-slate-200'}`} />
-                        
-                        {/* Milestone Number Badge */}
-                        <span className={`px-2 py-0.5 rounded-full text-[10px] font-mono font-extrabold uppercase tracking-wider transition-all duration-500 ${
-                          isActive 
-                            ? 'bg-[#1a0647] text-white shadow-xs scale-105' 
-                            : 'bg-slate-100 text-slate-400'
-                        }`}>
-                          {item.num}
-                        </span>
-                      </div>
-
-                      {/* Card Content with Auto Highlighter Styling */}
-                      <div 
-                        className={`p-4 rounded-2xl border transition-all duration-500 flex-1 flex flex-col justify-between text-center min-h-[175px] relative overflow-hidden ${
-                          isActive
-                            ? 'bg-gradient-to-b from-white via-purple-50/60 to-purple-50/90 border-purple-400 shadow-xl shadow-purple-900/15 ring-2 ring-purple-400/30 -translate-y-2'
-                            : 'bg-white/95 border-slate-200/80 opacity-75 shadow-xs'
-                        }`}
-                      >
-                        {/* Top subtle highlight glow line when active */}
-                        {isActive && (
-                          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 via-[#f9572a] to-amber-400" />
-                        )}
-
-                        <div>
-                          <span className={`text-[10px] font-mono font-bold block mb-1 uppercase tracking-tight transition-colors duration-300 ${
-                            isActive ? item.badgeText : 'text-slate-400'
-                          }`}>
-                            {item.stage}
-                          </span>
-                          <h4 className={`font-display font-bold text-xs xl:text-sm leading-snug mb-1.5 transition-colors duration-300 ${
-                            isActive ? 'text-[#1a0647]' : 'text-slate-700'
-                          }`}>
-                            {item.title}
-                          </h4>
-                        </div>
-
-                        <p className={`text-[11px] leading-relaxed transition-colors duration-300 ${
-                          isActive ? 'text-slate-700 font-medium' : 'text-slate-500'
-                        }`}>
-                          {item.subtitle}
-                        </p>
-
-                        {/* Subtle bottom indicator dot */}
-                        <div className="pt-2 mt-2 border-t border-slate-100/80 flex items-center justify-center">
-                          <span className={`w-1.5 h-1.5 rounded-full transition-all duration-500 ${
-                            isActive ? 'bg-[#f9572a] scale-125' : 'bg-slate-200'
-                          }`} />
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-
-            </div>
-
+            <h3 className="font-display font-extrabold text-2xl sm:text-3xl md:text-4xl text-[#0e072b] tracking-tight leading-[1.2] max-w-4xl">
+              Enam pilar akselerasi berkesinambungan menuju kemandirian ekonomi BUMD:
+            </h3>
           </div>
 
-        </div>
-
-        {/* ==================================================================== */}
-        {/* MOBILE & TABLET RESPONSIVE ROADMAP (AUTO-HIGHLIGHTING EVERY 2S)     */}
-        {/* ==================================================================== */}
-        <div className="lg:hidden space-y-4 mb-12">
-          
-          <div className="mb-2">
-            <span className="text-xs font-mono font-bold text-[#f9572a] uppercase tracking-wider">
-              6 Tahapan Akselerasi Strategis:
-            </span>
-          </div>
-
-          <div className="relative pl-6 sm:pl-8 space-y-3.5 before:absolute before:left-3 before:top-4 before:bottom-4 before:w-1 before:bg-gradient-to-b before:from-[#4f46e5] before:via-[#9333ea] before:via-[#f9572a] before:to-amber-400 before:rounded-full">
-            {objectives.map((item, idx) => {
-              const IconComp = item.icon;
-              const isSelected = activeStep === idx;
-
-              return (
-                <div
-                  key={item.id}
-                  className={`p-4 sm:p-5 rounded-2xl border transition-all duration-500 relative ${
-                    isSelected
-                      ? 'bg-gradient-to-br from-white to-purple-50/90 border-purple-400 shadow-md ring-2 ring-purple-300/40 -translate-y-0.5'
-                      : 'bg-white border-slate-200/90 opacity-80'
-                  }`}
-                >
-                  {/* Pin Dot on the left spine */}
-                  <div className={`absolute -left-[19px] sm:-left-[27px] top-6 w-4 h-4 rounded-full border-2 border-white shadow-sm transition-all duration-500 flex items-center justify-center ${
-                    isSelected ? 'bg-[#f9572a] scale-125' : 'bg-slate-300'
-                  }`} />
-
-                  {/* Header info */}
-                  <div className="flex items-start justify-between gap-3 mb-1.5">
-                    <div className="flex items-center gap-3">
-                      <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-all duration-500 ${
-                        isSelected 
-                          ? 'bg-gradient-to-br ' + item.color + ' text-white shadow-md' 
-                          : 'bg-slate-100 text-slate-400'
-                      }`}>
-                        <IconComp className="w-5 h-5" />
-                      </div>
-                      <div>
-                        <div className="flex items-center gap-2">
-                          <span className={`text-[10px] font-mono font-bold px-1.5 py-0.5 rounded transition-colors ${
-                            isSelected ? 'bg-[#1a0647] text-white' : 'bg-slate-100 text-slate-500'
-                          }`}>
-                            {item.num}
-                          </span>
-                          <span className={`text-[10px] font-mono font-bold uppercase ${
-                            isSelected ? item.badgeText : 'text-slate-400'
-                          }`}>
-                            {item.stage}
-                          </span>
-                        </div>
-                        <h4 className={`font-display font-bold text-base transition-colors ${
-                          isSelected ? 'text-[#1a0647]' : 'text-slate-700'
-                        }`}>
-                          {item.title}
-                        </h4>
-                      </div>
-                    </div>
+          {/* 6 Key Cards Grid (2 rows x 3 columns on desktop, responsive) */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+            {keyCards.map((card) => (
+              <div
+                key={card.num}
+                className="bg-white rounded-2xl sm:rounded-3xl border border-slate-200/80 p-6 sm:p-7 pb-14 sm:pb-16 relative overflow-hidden flex flex-col justify-between shadow-xs hover:shadow-xl hover:-translate-y-1 transition-all duration-300 min-h-[220px] group"
+              >
+                <div>
+                  {/* Milestone Number Badge */}
+                  <div className={`inline-flex items-center justify-center px-4 py-1.5 rounded-xl font-display font-extrabold text-sm sm:text-base ${card.badgeBg} ${card.badgeText}`}>
+                    {card.num}
                   </div>
 
-                  <p className={`text-xs sm:text-sm font-semibold transition-colors ${
-                    isSelected ? 'text-slate-800' : 'text-slate-500'
-                  }`}>
-                    {item.subtitle}
+                  {/* Category Overline */}
+                  <span className={`block text-[11px] sm:text-xs font-extrabold uppercase tracking-wider mt-4 sm:mt-5 ${card.categoryColor}`}>
+                    {card.category}
+                  </span>
+
+                  {/* Card Title */}
+                  <h4 className="font-display font-extrabold text-lg sm:text-xl lg:text-[22px] text-[#0e072b] mt-1.5 leading-snug">
+                    {card.title}
+                  </h4>
+
+                  {/* Card Subtitle */}
+                  <p className="text-slate-500 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
+                    {card.subtitle}
                   </p>
                 </div>
-              );
-            })}
+
+                {/* Bottom Decorative Dual-Wave Graphic */}
+                <CardWave />
+              </div>
+            ))}
           </div>
 
         </div>
